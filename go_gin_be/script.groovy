@@ -12,6 +12,7 @@ pipeline {
                 sh 'docker build -t go_gin_be_image ./go_gin_be'
             }
         }
+        
         // stage('Deploy Container') {
         //     steps {
         //         sh '''
