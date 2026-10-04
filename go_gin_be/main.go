@@ -17,6 +17,7 @@ func main() {
 
 	DATABASE_URL := os.Getenv("DATABASE_URL")
 	log.Println("DATABASE_URL=", DATABASE_URL)
+	log.Println("Tuấn Lâm")
 	db, _ := sql.Open("postgres", DATABASE_URL)
 
 	router := gin.Default()
