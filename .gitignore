@@ -40,3 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /docker-compose/postgres_data
+
+bui-van-tuan-lam.com.crt
+bui-van-tuan-lam.com.key
